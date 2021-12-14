@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CIS-119 Slot Machine</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="SlotJS.js"></script>
+    </head>
+    <body>
+        <h2>Enter your bet:</h2>
+        <form name="SlotMachine" onsubmit="return PullTheLever()" >
+            <input type="text" name="playerBet" > <br>
+            <br>
+            <input type="submit" value="Submit now">
+        </form>             
+        <br>
+<!-- Use the "line" div to show the 3 symbols 
+     (in your JavaScript file):
+     document.getElementById("line").innerHTML = sometext; -->        
+        <div id="line" >
+        </div>         
+<!-- Use the "winning" div to show the amount won
+     (in your JavaScript file):
+     document.getElementById("winnings").innerHTML = sometext; -->        
+        <div id="winnings" >
+        </div>
+    </body>
+</html>
